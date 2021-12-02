@@ -11,7 +11,8 @@ pf.cpf = '777.999.999.-99';
 const pj = new PessoaJuridica();
  pj.nome = 'Joelma';
  pj.sobrenome = 'calypson';
+ pj.idade = 55;
  pj.cnpj = '88283/0001-83';
 
  console.log(pf.nome,pf.sobrenome,pf.idade,pf.cpf);
- console.log(pj)
+ console.log(pj.nome,pj.sobrenome,pj.idade,pj.cnpj)

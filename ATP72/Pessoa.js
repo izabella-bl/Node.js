@@ -4,7 +4,7 @@ export class Pessoa{
     #idade;
 
     get nome(){
-        this.#nome;
+       return this.#nome;
     }
 
     set nome(nome){
@@ -13,7 +13,7 @@ export class Pessoa{
 
     
     get sobrenome(){
-        this.#sobrenome;
+        return this.#sobrenome;
     }
 
     set sobrenome(sobrenome){
@@ -22,7 +22,7 @@ export class Pessoa{
 
     
     get idade(){
-        this.#idade;
+        return this.#idade;
     }
 
     set idade(idade){
